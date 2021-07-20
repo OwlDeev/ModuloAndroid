@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631716097976",
+    "project_id": "cartasshilenas",
+    "storage_bucket": "cartasshilenas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631716097976:android:7aee5961ead1ae4f28e94d",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631716097976-hu358shtlv73v8r5q0n6rknlhpb9lm4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtqrf344DsvmKpnbkiR5sfM-XzXbG6rvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631716097976-hu358shtlv73v8r5q0n6rknlhpb9lm4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
