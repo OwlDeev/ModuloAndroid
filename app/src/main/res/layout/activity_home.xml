@@ -39,8 +39,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="40"
-            android:minHeight="90" />
+            android:layout_weight="40"/>
 
         <Button
             android:id="@+id/PlayButton"
@@ -61,17 +60,16 @@
             android:layout_weight="40"
             android:text="Coleccion de cartas" />
 
-        <LinearLayout
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="66dp" />
 
-            <Button
-                android:id="@+id/loginDownButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Cerrar sesion" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/loginDownButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cerrar sesion" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

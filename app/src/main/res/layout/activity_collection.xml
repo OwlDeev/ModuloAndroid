@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".CollectionActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/newMazoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear mazo" />
+
+        <Button
+            android:id="@+id/EditMazoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar mazo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/BackHomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al menu " />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

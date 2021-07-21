@@ -1,5 +1,6 @@
 package com.example.demo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
@@ -31,6 +32,12 @@ class HomeActivity : AppCompatActivity() {
         loginDownButton.setOnClickListener{
             FirebaseAuth.getInstance().signOut()
             onBackPressed()
+        }
+
+        CollectionButton.setOnClickListener{
+            val collectionIntent = Intent(this, CollectionActivity::class.java).apply {
+            }
+            startActivity(collectionIntent)
         }
     }
 }
