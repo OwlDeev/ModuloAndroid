@@ -11,10 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
-        <activity android:name=".reciclerViewMazos.EditMazo"></activity>
-        <activity android:name=".CollectionActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".AuthActivity">
+
+        <activity android:name=".reciclerViewMazos.EditMazo" android:screenOrientation="landscape"></activity>
+        <activity android:name=".CollectionActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".HomeActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".AuthActivity" android:screenOrientation="landscape">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
